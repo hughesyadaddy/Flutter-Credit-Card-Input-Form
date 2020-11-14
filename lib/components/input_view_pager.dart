@@ -186,7 +186,8 @@ class _InputFormState extends State<InputForm> {
             Text(
               widget.title,
               style: TextStyle(
-                  fontSize: 12, color: Theme.of(context).dividerColor),
+                  fontSize: 12,
+                  color: Theme.of(context).textTheme.bodyText1.color),
             ),
             SizedBox(
               height: 5,
@@ -228,11 +229,13 @@ class _InputFormState extends State<InputForm> {
                     const EdgeInsets.symmetric(vertical: 10.0, horizontal: 10),
                 border: OutlineInputBorder(
                     borderSide: BorderSide(
-                        width: 1, color: Theme.of(context).dividerColor),
+                        width: 1,
+                        color: Theme.of(context).textTheme.bodyText1.color),
                     borderRadius: BorderRadius.circular(5)),
                 focusedBorder: OutlineInputBorder(
                     borderSide: BorderSide(
-                        width: 1, color: Theme.of(context).dividerColor),
+                        width: 1,
+                        color: Theme.of(context).textTheme.bodyText1.color),
                     borderRadius: BorderRadius.circular(5)),
               ),
             )
